@@ -1,0 +1,215 @@
+p {
+    font-size: 16px;
+}
+
+body{
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/*ヘッダー*/
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1080px;
+}
+#nav-PC{
+    font-size: 20px;
+}
+#nav-PC ul{
+    display: flex;
+    padding-left: 0;
+    align-items: center;
+}
+#nav-PC li{
+    list-style: none;
+}
+
+#nav-PC a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #596D3F;
+}
+/*メインビジュアル*/
+#main-visual img{
+    width: 100%;
+}
+
+/*見出し*/
+h1{
+    text-align: center;
+}
+h1::after{
+    content: url(img/Line\ １.png);
+    margin-left: 60px;
+
+}
+h1::before{
+    content: url(img/Line\ １.png);
+    margin-right: 60px;
+}
+h1{
+    font-size: 48px;
+    color: #596D3F;
+}
+
+h2::after{
+    content: url(img/Line\ １.png);
+    margin-left: 60px;
+}
+h2{
+    font-size: 48px;
+    color: #596D3F;
+    padding-left: 225px;
+}
+
+/*クリニックについて*/
+#クリニックについて{
+    background-color: #FBFBD6;
+    padding-top: 40px;
+}
+
+#クリニックについて-flex{
+    max-width: 1080px;
+    display: flex;
+    margin: auto;
+}
+#クリニックについて-flex > div{
+    width: 50%;
+    margin: 45px;
+}
+
+#クリニックについて p {
+    max-width: 1080px;
+    margin: auto;
+    color: #596D3F;
+}
+
+/*診療内容*/
+#診療内容{
+    background-color: #ECFFC7;
+    padding: 40px;
+}
+.診療内容-flex{
+    max-width: 1080px;
+    display: flex;
+    margin: auto;
+}
+.診療内容-flex h3 {
+    font-size: 36px;
+    color: #596D3F;
+    text-align: center;
+}
+.診療内容-flex li{
+    color: #596D3F;
+    font-size: 20px;
+}
+.診療内容-flex > div{
+    margin: 10px;
+}
+#診療内容-center{
+    margin-top: 200px;
+}
+#診療内容-right img {
+    margin-left: auto;
+    transform: rotate(45deg);
+    width: 100px;
+    height: auto;
+    position: relative;
+    bottom: 25px;
+    left: 300px;
+}
+#診療内容-left img{
+    margin-right: auto;
+    transform: rotate(-45deg);
+    width: 100px;
+    height: auto;
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+}
+
+/*お知らせ*/
+#お知らせ{
+    background-color: #FFF;
+    padding-top: 40px;
+} 
+.news_list li{
+    list-style: none;
+    padding-left: 200px;
+    padding-bottom: 20px;
+}
+time{
+    font-size: 12px;
+    color: #95B170;
+}
+.news_item{
+    font-size: 24px;
+    color: #596D3F;
+}
+.news_list_item p{
+    font-size: 16px;
+    color: #596D3F;
+}
+
+/*アクセス*/
+#アクセス{
+    background-color: #ECFFC7;
+    padding-top: 40px;
+}
+.アクセス-flex{
+    max-width: 1080px;
+    display: flex;
+    margin: auto;
+}
+.診察日時-flex{
+    max-width: 1080px;
+    display: flex;
+    margin: auto;
+}
+.アクセス-flex > div{
+    width: 50%;
+    margin: 50px;
+}
+#アクセス p{
+    font-size: 36px;
+    color: #41473A;
+}
+.診察日時-flex > div{
+    margin: 10px;
+}
+
+/*フッター*/
+footer{
+    background-color: #596D3F;
+    text-align: center;
+    padding: 80px 80px 30px 80px;
+}
+#footer-logo{
+    margin-bottom: 30px;
+}
+#footer-link a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #ECFFC7;
+    font-size: 20px;
+}
+#footer-copyright p{
+    color: #ECFFC7;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
